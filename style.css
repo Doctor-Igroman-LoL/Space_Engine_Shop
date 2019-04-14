@@ -19,10 +19,32 @@ ul li {
 	font-size: 22px;
 }
 
-a {
+a {	
+	color: #1de9b6;
+	background: #004d40;
+	text-decoration: none;
+}
+
+.meny li a {
 	font-family: Superheterodyne;
 	color: #00796b;
+	background: #f8f8f8;
 	font-size: 16px;
 	text-decoration: none;
 	font-weight: 500;
 }
+
+div {
+	text-align: center;
+}
+
+h1, h3 {
+	text-align: center;
+}
+
+.catalog {
+	font-family: Superheterodyne;
+	color: #00796b;
+	font-weight: 300;
+}
+
