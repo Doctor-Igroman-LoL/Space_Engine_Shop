@@ -40,6 +40,10 @@ div {
 
 h1, h3 {
 	text-align: center;
+	font-size: 18px;
+	color: #000;
+	font-weight: 400;
+	background-color: #eaeaea;
 }
 
 .catalog {
@@ -48,3 +52,48 @@ h1, h3 {
 	font-weight: 300;
 }
 
+.short {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.detailed {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	line-height: 24px;	
+}
+
+.specifications li {
+	list-style-type: none;
+	font-style: oblique;
+}
+
+.specifications li:before {
+	content: "Δ  ";
+}
+
+form {
+	width: 40%;
+	height: 163px;
+	margin: 0 auto;
+	line-height: 26px;
+	font-size: 18px;
+	color: #1de9b6;
+	font-weight: 800;
+	background-color: #00796b;
+}
+
+#input_data {
+	text-align: center;	
+}
+
+.img {
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	background-color: #00796b;
+}
