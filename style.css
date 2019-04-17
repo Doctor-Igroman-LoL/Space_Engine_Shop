@@ -78,7 +78,7 @@ h1, h3 {
 
 form {
 	width: 40%;
-	height: 163px;
+	height: 80%;
 	margin: 0 auto;
 	line-height: 26px;
 	font-size: 18px;
@@ -89,4 +89,26 @@ form {
 
 #input_data {
 	text-align: center;	
+}
+
+input {
+	background-color: #ffe;
+	color: #00796b;
+	font-weight: 400;
+	width: 160px;
+}
+
+input[type="file"] {
+	width: 225px;
+}
+
+textarea {
+	width: 96%;
+	height: 46px;
+	background-color: #ffe;
+	color: #00796b;
+}
+
+iframe {
+	width: 92%;
 }
