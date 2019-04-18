@@ -35,7 +35,17 @@ a {
 }
 
 div {
+	
+}
+
+.table_catalog {
 	text-align: center;
+	width: 100%;
+	border: 3px solid #00796b;
+}
+
+.table_catalog td {
+	border: 3px solid #00796b;
 }
 
 h1, h3 {
