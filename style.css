@@ -97,8 +97,23 @@ form {
 	background-color: #00796b;
 }
 
+
 #input_data {
 	text-align: center;	
+}
+
+#data_user {
+	width: 100%;
+	border-spacing: 12px 2px;
+}
+
+#data_user td:first-child {
+	width: 44%;
+	text-align: right;
+}
+
+#data_user td:nth-child(2) {
+	text-align: left;
 }
 
 input {
@@ -108,8 +123,15 @@ input {
 	width: 160px;
 }
 
-input[type="file"] {
-	width: 225px;
+input[type="email"]:focus {
+	color: #00796b;
+	background-color: #1de9b6;
+	font-weight: 700;
+}
+
+input[type="text"]:focus, 
+textarea[type="text"]:focus { 
+	text-transform: capitalize;
 }
 
 textarea {
