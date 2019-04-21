@@ -195,14 +195,18 @@ iframe {
 	height: 40px;
 }
 
+.product_parameters tr:first-child {
+	height: 50px;
+}
+
 .product_parameters tr:nth-child(2) {
 	background-color: #BCF6D8;
-	height: 50px;
+	height: 30px;
 }
 
 .product_parameters tr:nth-child(3) td:first-child {
 	background-color: #BCF6D8;
-	height: 50px;
+	height: 30px;
 }
 
 div,
