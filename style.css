@@ -1,14 +1,12 @@
 body {
 	background-color: #f8f8f8;
+	width: 70%;
+	margin: 0 auto;
 }
 
 @font-face {
 	font-family: Superheterodyne; /* Имя шрифта */
 	src: url(fonts/Superheterodyne.otf); /* Путь к файлу со шрифтом */
-}
-
-ul li {
-	list-style-type: none;
 }
 
 #main {
@@ -25,17 +23,27 @@ a {
 	text-decoration: none;
 }
 
+.meny {
+	list-style-type: none;
+	margin: 8px;
+    padding: 10px 6px 10px 1px;
+}
+
 .meny li a {
 	font-family: Superheterodyne;
 	color: #00796b;
 	background: #f8f8f8;
-	font-size: 16px;
+	font-size: 18px;
 	text-decoration: none;
 	font-weight: 500;
 }
 
 .meny li a:hover {
 	color: #FFB440;
+}
+
+.header {
+	text-align: center;
 }
 
 .table_catalog {
@@ -77,17 +85,19 @@ h1, h3 {
 	line-height: 24px;	
 }
 
+.specifications {
+	line-height: 33px;
+	font-size: 18px;
+	list-style-image: url("img/icon.png");
+}
+
+
 .specifications li {
-	list-style-type: none;
 	font-style: oblique;
 }
 
-.specifications li:before {
-	content: "Δ  ";
-}
-
 form {
-	width: 40%;
+	width: 60%;
 	height: 80%;
 	margin: 0 auto;
 	line-height: 26px;
@@ -143,4 +153,23 @@ textarea {
 
 iframe {
 	width: 92%;
+}
+
+.product_parameters {
+	width: 60%;
+	border: 3px solid #00796b;
+	border-collapse: collapse;
+}
+
+.product_parameters td {
+	width: 25%;
+	border: 3px solid #00796b;
+}
+
+.product_parameters tr {
+	height: 40px;
+}
+
+.product_parameters tr:first-child {
+	height: 50px;
 }
