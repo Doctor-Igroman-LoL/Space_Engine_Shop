@@ -34,8 +34,8 @@ a {
 	font-weight: 500;
 }
 
-div {
-	
+.meny li a:hover {
+	color: #FFB440;
 }
 
 .table_catalog {
