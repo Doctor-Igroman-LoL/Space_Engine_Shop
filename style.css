@@ -21,6 +21,12 @@ body {
 	position: relative;
 	height: 150px;
 	margin-bottom: 20px;
+	background: url("img/Space_Background.png")  no-repeat;
+	background-size: cover;
+}
+
+.header img {
+	width: 64%;
 }
 
 hr {
@@ -46,22 +52,29 @@ a {
     position: absolute;
     width: 42%;
     left: 56%;
-    top: 32%;
+    top: 16%;
 }
 
 .meny li a {
+	display: block;
+	width: 95%;
+    height: 90%;
+    padding-top: 10px;
 	font-family: Superheterodyne;
-	color: #00796b;
+    color: #1de9b6;
 	background: #f8f8f8;
 	font-size: 18px;
 	text-decoration: none;
 	font-weight: 500;
+    background-color: #00796b;
+    border-radius: 8px;
 }
 
 .meny li{
 	display: inline-block;
 	width: 26%;
 	height: 32px;	
+	padding: 3%;
 }
 
 .meny li a:hover {
@@ -213,7 +226,8 @@ textarea {
 }
 
 iframe {
-	width: 92%;
+	width: 100%;
+	height: 374px;
 }
 
 .product_parameters {
