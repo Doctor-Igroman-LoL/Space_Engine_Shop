@@ -128,6 +128,13 @@ h1, h3 {
 	font-size: 14px;
 	font-style: italic;
 	line-height: 16px;
+	width: 50%;
+	margin-left: 47%;
+	margin-top: 9%;
+}
+
+h3 {
+	clear: both;
 }
 
 .detailed {
@@ -253,6 +260,10 @@ div,
 
 .image_product {
 	outline: 7px solid #00796b;
+	margin-left: 10%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	float: left;
 }
 
 .image_product:hover {
@@ -277,4 +288,28 @@ p:first-letter {
 	right: 2%;
 	bottom: 1%;
 	color: #1de9b6;
+}
+
+.buy_product {
+	font-family: Superheterodyne;
+	display: block;
+	background-color: #286c6f;
+	color: #1de9b6;
+	font-size: 21px;
+	font-weight: 100;
+	width: 14%;
+	height: 36px;
+	margin: 16px auto;
+}
+
+.buy_product:hover {
+	font-family: Superheterodyne;
+	background-color: #FFB440;
+	color: #ff3a1a;
+}
+
+.buy_product:active {
+	font-family: Superheterodyne;
+	background-color: #50a072;
+	color: #4978a0;
 }
