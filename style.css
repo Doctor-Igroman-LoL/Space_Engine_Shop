@@ -245,7 +245,11 @@ div,
 	text-align: center;
 }
 
-
+.footer {
+	height: 60px;
+	background-color: #286c6f;
+	position: relative;
+}
 
 .image_product {
 	outline: 7px solid #00796b;
@@ -262,7 +266,15 @@ p:first-letter {
 }
 
 .copy:first-letter {
-	color: #000;
+	color: #1de9b6;
 	font-size: 18px;
 	font-weight: 400;
+}
+
+.copy {
+	position: relative;
+	text-align: right;
+	right: 2%;
+	bottom: 1%;
+	color: #1de9b6;
 }
