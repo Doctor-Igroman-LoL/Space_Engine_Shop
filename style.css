@@ -314,7 +314,8 @@ p:first-letter {
 }
 
 .copy {
-	position: relative;
+	padding-right: 3%;
+    padding-top: 1%;
 	text-align: right;
 	right: 2%;
 	bottom: 1%;
