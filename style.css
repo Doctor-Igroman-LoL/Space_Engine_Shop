@@ -12,6 +12,7 @@ body {
 	background-color: #f8f8f8;
 	width: 80%;
 	min-width: 1460px;
+	max-width: 1920px;
 	margin: 0 auto;
 }
 
