@@ -1,7 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
 body {
 	background-color: #f8f8f8;
-	width: 70%;
+	width: 80%;
+	min-width: 1460px;
 	margin: 0 auto;
+}
+
+.container {
+	min-height: 100%;
 }
 
 @font-face {
@@ -18,15 +33,14 @@ body {
 }
 
 .header {
-	position: relative;
-	height: 150px;
+	height: 20%;
 	margin-bottom: 20px;
 	background: url("img/Space_Background.png")  no-repeat;
 	background-size: cover;
 }
 
 .header img {
-	width: 64%;
+	width: 81%;
 }
 
 hr {
@@ -42,24 +56,21 @@ a {
 .logo {
 	float: left;
 	display: block;
-	width: 40%
 }
 
 .meny {
 	list-style-type: none;
-	margin: 8px;
-    padding: 10px 6px 10px 1px;
-    position: absolute;
-    width: 42%;
-    left: 56%;
-    top: 16%;
+    margin-left: 37%;
+    padding-top: 2%;
+    width: 70%;
 }
 
 .meny li a {
 	display: block;
-	width: 95%;
-    height: 90%;
-    padding-top: 10px;
+	width: 120%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    box-shadow: 0px 4px 6.48px 0.15px rgba(100, 255, 238, 1);
 	font-family: Superheterodyne;
     color: #1de9b6;
 	background: #f8f8f8;
@@ -71,10 +82,9 @@ a {
 }
 
 .meny li{
-	display: inline-block;
-	width: 26%;
-	height: 32px;	
-	padding: 3%;
+	float: left;
+    padding: 3%;
+    margin-left: 3%;
 }
 
 .meny li a:hover {
@@ -266,8 +276,15 @@ div,
 	text-align: center;
 }
 
-.footer {
+.clr {
 	height: 60px;
+}
+
+.footer {
+	width: 80%;
+	height: 60px;
+	margin: 0 auto; 
+	margin-top: -60px;
 	background-color: #286c6f;
 	position: relative;
 }
